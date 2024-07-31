@@ -1,0 +1,49 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1722416858",
+        "python_version": "3.6.13 |Anaconda, Inc.| (default, Mar 16 2021, 11:37:27) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Jakob\\miniconda3\\envs\\test03\\Scripts\\mlagents-learn config/defaultcube_config.yaml --run-id=DefaultCube_Run01 --resume",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cpu",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1722416862"
+    },
+    "total": 4.0290667000000004,
+    "count": 1,
+    "self": 0.006486600000001452,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0722106,
+            "count": 1,
+            "self": 0.0722106
+        },
+        "TrainerController.start_learning": {
+            "total": 3.9503694999999994,
+            "count": 1,
+            "self": 8.349999999923696e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 3.8339459000000002,
+                    "count": 1,
+                    "self": 3.8339459000000002
+                },
+                "TrainerController._save_models": {
+                    "total": 0.11634009999999995,
+                    "count": 1,
+                    "self": 0.007733299999999943,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.1086068,
+                            "count": 1,
+                            "self": 0.1086068
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "DefaultCube": {
+        "checkpoints": [
+            {
+                "steps": 499993,
+                "file_path": "results\\DefaultCube_Run04\\DefaultCube\\DefaultCube-499993.onnx",
+                "reward": 0.041615597211072476,
+                "creation_time": 1722421399.8748503,
+                "auxillary_file_paths": [
+                    "results\\DefaultCube_Run04\\DefaultCube\\DefaultCube-499993.pt"
+                ]
+            },
+            {
+                "steps": 999981,
+                "file_path": "results\\DefaultCube_Run04\\DefaultCube\\DefaultCube-999981.onnx",
+                "reward": 1.56281262040937e-05,
+                "creation_time": 1722421989.7999825,
+                "auxillary_file_paths": [
+                    "results\\DefaultCube_Run04\\DefaultCube\\DefaultCube-999981.pt"
+                ]
+            },
+            {
+                "steps": 1000045,
+                "file_path": "results\\DefaultCube_Run04\\DefaultCube\\DefaultCube-1000045.onnx",
+                "reward": 1.56281262040937e-05,
+                "creation_time": 1722421989.833927,
+                "auxillary_file_paths": [
+                    "results\\DefaultCube_Run04\\DefaultCube\\DefaultCube-1000045.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000045,
+            "file_path": "results\\DefaultCube_Run04\\DefaultCube.onnx",
+            "reward": 1.56281262040937e-05,
+            "creation_time": 1722421989.833927,
+            "auxillary_file_paths": [
+                "results\\DefaultCube_Run04\\DefaultCube\\DefaultCube-1000045.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cpu"
+    }
+}

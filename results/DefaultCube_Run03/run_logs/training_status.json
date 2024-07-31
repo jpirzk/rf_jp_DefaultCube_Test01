@@ -1,0 +1,29 @@
+{
+    "DefaultCube": {
+        "checkpoints": [
+            {
+                "steps": 306983,
+                "file_path": "results\\DefaultCube_Run03\\DefaultCube\\DefaultCube-306983.onnx",
+                "reward": null,
+                "creation_time": 1722420501.4758892,
+                "auxillary_file_paths": [
+                    "results\\DefaultCube_Run03\\DefaultCube\\DefaultCube-306983.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 306983,
+            "file_path": "results\\DefaultCube_Run03\\DefaultCube.onnx",
+            "reward": null,
+            "creation_time": 1722420501.4758892,
+            "auxillary_file_paths": [
+                "results\\DefaultCube_Run03\\DefaultCube\\DefaultCube-306983.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cpu"
+    }
+}
