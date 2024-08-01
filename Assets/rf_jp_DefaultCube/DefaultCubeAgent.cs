@@ -50,7 +50,7 @@ public class DefaultCubeAgent : Agent
     {
         // actions, size = 28 
         for(int i=0; i<28; i++){
-            dcScript.springForceControl[i] = actionBuffers.ContinuousActions[i]; 
+            dcScript.springForceControl[i] = actionBuffers.DiscreteActions[i]; 
         } 
 
         // get distance
@@ -77,12 +77,12 @@ public class DefaultCubeAgent : Agent
 
     public override void Heuristic(in ActionBuffers actionsOut)
     {
-        var continuousActionsOut = actionsOut.ContinuousActions; 
+        var discreteActionsOut = actionsOut.DiscreteActions; 
 
         bool spacePressed = Input.GetKey(KeyCode.Space); 
 
         for (int i = 0; i < 28; i++) {
-            continuousActionsOut[i] = spacePressed ? 1f : 0f;
+            discreteActionsOut[i] = spacePressed ? 1 : 0;
         }
 
     }
