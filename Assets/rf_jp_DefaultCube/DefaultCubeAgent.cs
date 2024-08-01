@@ -23,6 +23,8 @@ public class DefaultCubeAgent : Agent
         // reset cube if fallen off
         if(this.transform.localPosition.y < -0.5 || dcScript.cornerUnderPlane){
             dcScript.triggerReset = true; 
+            // move this to a random spot
+            this.transform.localPosition = new Vector3(Random.value*8-4, 1f, Random.value*8-4); 
         }
        
         // move the target to a new spot

@@ -30,6 +30,7 @@ public class DefaultCubeV2 : MonoBehaviour //jp240125
     public bool debugSpringForce = false; 
     public bool triggerReset = false; 
     public bool cornerUnderPlane = false; 
+    public PhysicMaterial cornerPhMat; 
 
     // -------------------------------------------------------
 
@@ -198,6 +199,10 @@ public class DefaultCubeV2 : MonoBehaviour //jp240125
             _go.transform.parent = this.transform; 
             cornerControlObjects[i] = _go; 
             cornerControlObjectRbs[i] = _rb; 
+
+            //add physics material to collider 
+            _col.material = cornerPhMat; 
+
         } 
 
         //add spring constraints for all of them to all of them 

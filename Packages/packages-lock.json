@@ -70,7 +70,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ml-agents": {
-      "version": "file:C:/Users/Jakob/Downloads/ml-agents-release_19(1)/ml-agents-release_19/com.unity.ml-agents",
+      "version": "file:../../com.unity.ml-agents",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -80,7 +80,7 @@
       }
     },
     "com.unity.ml-agents.extensions": {
-      "version": "file:C:/Users/Jakob/Downloads/ml-agents-release_19(1)/ml-agents-release_19/com.unity.ml-agents.extensions",
+      "version": "file:../../com.unity.ml-agents.extensions",
       "depth": 0,
       "source": "local",
       "dependencies": {

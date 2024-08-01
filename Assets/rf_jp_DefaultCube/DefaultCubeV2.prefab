@@ -60,6 +60,7 @@ MonoBehaviour:
   debugSpringForce: 0
   triggerReset: 0
   cornerUnderPlane: 0
+  cornerPhMat: {fileID: 13400000, guid: a613d379ebdf9d5489cc2f19b1483eb2, type: 2}
 --- !u!33 &2408811838856663258
 MeshFilter:
   m_ObjectHideFlags: 0

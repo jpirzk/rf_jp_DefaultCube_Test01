@@ -53,5 +53,5 @@
         "Temp/": true
     },
     "dotnet.preferCSharpExtension": true,
-    "dotnet.defaultSolution": "mlagents_tests02.sln"
+    "dotnet.defaultSolution": "rf_jp_DefaultCube_Test01.sln"
 }

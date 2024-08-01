@@ -53,9 +53,9 @@ MonoBehaviour:
   cornerVelocities: []
   cubePosition: {x: 0, y: 0, z: 0}
   springForceMin: 30
-  springForceMax: 100
+  springForceMax: 200
   cornerColliderRadius: 0.1
-  springJointDamper: 0.6
+  springJointDamper: 0.8
   cornerRigidbodyMass: 0.5
   cornerControlObjects: []
   cornerControlObjectRbs: []
@@ -63,6 +63,7 @@ MonoBehaviour:
   debugSpringForce: 0
   triggerReset: 0
   cornerUnderPlane: 0
+  cornerPhMat: {fileID: 13400000, guid: a613d379ebdf9d5489cc2f19b1483eb2, type: 2}
 --- !u!33 &6535668218337607226
 MeshFilter:
   m_ObjectHideFlags: 0
